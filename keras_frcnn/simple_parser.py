@@ -1,5 +1,6 @@
 import cv2
 import numpy as np
+import os.path 
 
 
 def get_data(input_path):
@@ -34,7 +35,7 @@ def get_data(input_path):
 
             if filename not in all_imgs:
                 all_imgs[filename] = {}
-
+                print (os.path.isfile(filename))
                 img = cv2.imread(filename)
                 (rows, cols) = img.shape[:2]
                 all_imgs[filename]['filepath'] = filename
@@ -63,4 +64,3 @@ def get_data(input_path):
                 class_mapping[key_to_switch] = val_to_switch
 
         return all_data, classes_count, class_mapping
-

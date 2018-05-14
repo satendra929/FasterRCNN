@@ -17,9 +17,9 @@ from keras_frcnn import losses as losses_fn
 import keras_frcnn.roi_helpers as roi_helpers
 from keras.utils import generic_utils
 import os
+import os.path
 from keras_frcnn import resnet as nn
 from keras_frcnn.simple_parser import get_data
-
 
 def train_kitti():
     # config for data argument
@@ -33,7 +33,8 @@ def train_kitti():
 
     # TODO: the only file should to be change for other data to train
     cfg.model_path = './model/kitti_frcnn_last.hdf5'
-    cfg.simple_label_file = 'kitti_simple_label.txt'
+    #cfg.simple_label_file = 'kitti_simple_label.txt'
+    cfg.simple_label_file = 'kitti_simple_label_local.txt'
 
     all_images, classes_count, class_mapping = get_data(cfg.simple_label_file)
 
