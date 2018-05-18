@@ -1,0 +1,16 @@
+images_local/0.jpg,95,83,165,134,Gesture
+images_local/1.jpg,128,72,197,144,Gesture
+images_local/2.jpg,48,60,119,119,Gesture
+images_local/3.jpg,111,113,193,187,Gesture
+images_local/4.jpg,76,102,145,153,Gesture
+images_local/5.jpg,38,59,106,118,Gesture
+images_local/6.jpg,74,87,148,151,Gesture
+images_local/7.jpg,62,37,149,93,Gesture
+images_local/8.jpg,109,22,216,98,Gesture
+images_local/9.jpg,61,45,136,103,Gesture
+images_local/10.jpg,37,96,117,160,Gesture
+images_local/11.jpg,64,64,152,126,Gesture
+images_local/12.jpg,146,66,242,121,Gesture
+images_local/13.jpg,71,28,152,105,Gesture
+images_local/14.jpg,34,99,113,145,Gesture
+images_local/15.jpg,87,62,161,115,Gesture
